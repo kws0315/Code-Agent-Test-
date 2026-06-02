@@ -1,8 +1,7 @@
 # PR-Agent 설정
 [config]
 response_language = "ko-KR"
-model="gemini/gemini-1.5-flash"
-fallback_models=["gemini-2.5-pro"]
+model = "gemini/gemini-3.5-flash"
 
 [pr_reviewer]
 extra_instructions = """
