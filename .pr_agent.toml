@@ -1,7 +1,8 @@
 # PR-Agent 설정
 [config]
-response_language = "ko-KR"     
-model = "gpt-4-turbo-2024-04-09"
+response_language = "ko-KR"
+model="gemini/gemini-1.5-flash"
+fallback_models=["gemini-2.5-pro"]
 
 [pr_reviewer]
 extra_instructions = """
